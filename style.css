@@ -39,6 +39,7 @@ header{
 }
 header, main, aside, footer{
     background-color: beige;
+    padding: 15px;
 }
 /*definir cor de fundo; todos*/
 
@@ -48,4 +49,8 @@ body{
 .imagens{ 
     height: auto; /*puxar do class*/
     width: 40%;
+}
+header{
+    height: 70px; 
+    width: auto;
 }
