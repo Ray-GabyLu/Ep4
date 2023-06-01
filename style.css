@@ -1,0 +1,37 @@
+*{
+
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+    "cc cc cc"
+    "cp cp cp"
+    "ld ld ld";
+background-color: grey;
+}
+body{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+
+header{
+    grid-area: cc;
+    background-color: brown;
+}
+
+main{
+    grid-area: cp;
+    background-color: beige;
+}
+
+aside{
+    grid-area: ld;
+    background-color: yellow;
+}
+
+footer{
+    grid-area: pe;
+    background-color: blue;
+}
