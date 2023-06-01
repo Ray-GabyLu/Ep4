@@ -1,5 +1,6 @@
 *{ 
     margin:0;
+    /*margem de sobra ao lado*/
 
 }
 
@@ -19,18 +20,21 @@ body{
 
 header{
     grid-area: cc;
+     /*posicionamento em coluna;linha*/
 }
 
 main{
-    grid-area: cp;
+    grid-area: cp; 
+    /*posicionamento em coluna;linha*/
 }
 
 aside{
     grid-area: ld;
+     /*posicionamento em coluna;linha*/
 }
 
 footer{
-    grid-area: pe;
+    grid-area: pe; /*posicionamento em coluna e linha do footer*/
     width: auto;   
 }
 
@@ -38,21 +42,23 @@ footer{
 /*-------------acima para o grid----------------------------*/
 header{
     background-image: url(https://as1.ftcdn.net/v2/jpg/03/41/22/26/1000_F_341222612_AzstygeCtR6uQQbj5LVkbOK3X47H31Z3.jpg);
+/*imagem de 'logo header'; imagem no header*/
 }
 header, main, aside, footer{
-    background-color: beige;
-    padding: 15px;
+    background-color: beige;/*definir cor dos fundos e igualar*/
+    padding: 15px; /*deixar textos mais alinhados e distantes da borda*/
 }
 /*definir cor de fundo; todos*/
 
 body{
     background-color: rgb(31, 28, 28);
+    /*cor das bordas*/
 }
 .imagens{ 
-    height: auto; /*puxar do class*/
+    height: auto; /*puxar do class e igualar tamanhos*/
     width: 40%;
 }
 header{
-    height: 70px; 
-    width: auto;
+    height: 70px; /*coloquei para tirar a escrita que estava anteriormente*/
+    width: auto; /*definir o tamnho e o restante deixei automatico*/
 }
