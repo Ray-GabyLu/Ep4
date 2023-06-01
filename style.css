@@ -45,7 +45,7 @@ header{
 /*imagem de 'logo header'; imagem no header*/
 }
 header, main, aside, footer{
-    background-color: beige;/*definir cor dos fundos e igualar*/
+    background-color: rgb(233, 233, 159);/*definir cor dos fundos e igualar*/
     padding: 15px; /*deixar textos mais alinhados e distantes da borda*/
 }
 /*definir cor de fundo; todos*/
