@@ -3,18 +3,18 @@
 }
 
 body{
-    display: grid;
+    display: grid; /*organização em grid/ no  site todo*/
     grid-template-areas:
-    "cc cc cc"
-    "ld cp cp"
-    "pe pe pe";
+    "cc cc "
+    "ld cp "
+    "pe pe ";
 background-color: grey;
 }
 body{
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 40% auto;
     grid-template-rows: auto auto auto;
 }
-
+/* definir os tamanhos- auto*/
 
 header{
     grid-area: cc;
