@@ -30,8 +30,10 @@ aside{
 }
 
 footer{
-    grid-area: pe;   
+    grid-area: pe;
+    width: auto;   
 }
+
 
 /*-------------acima para o grid----------------------------*/
 header{
