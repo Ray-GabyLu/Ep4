@@ -1,4 +1,5 @@
-*{
+*{ 
+    margin:0;
 
 }
 
@@ -8,7 +9,7 @@ body{
     "cc cc "
     "ld cp "
     "pe pe ";
-background-color: grey;
+    gap: 10px; /*espaços entre margem e borda*/
 }
 body{
     grid-template-columns: 40% auto;
@@ -18,25 +19,24 @@ body{
 
 header{
     grid-area: cc;
-    background-color: brown;
 }
 
 main{
     grid-area: cp;
-    background-color: beige;
 }
 
 aside{
     grid-area: ld;
-    background-color: yellow;
 }
 
 footer{
-    grid-area: pe;
-    background-color: blue;
+    grid-area: pe;   
 }
 
 /*-------------acima para o grid----------------------------*/
 header{
     background-image: url(https://as1.ftcdn.net/v2/jpg/03/41/22/26/1000_F_341222612_AzstygeCtR6uQQbj5LVkbOK3X47H31Z3.jpg);
+}
+header, main, aside, footer{
+    background-color: beige;
 }
