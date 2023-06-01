@@ -40,6 +40,12 @@ header{
 header, main, aside, footer{
     background-color: beige;
 }
+/*definir cor de fundo; todos*/
+
 body{
     background-color: rgb(31, 28, 28);
+}
+.imagens{ 
+    height: auto; /*puxar do class*/
+    width: 40%;
 }
