@@ -35,7 +35,7 @@ aside{
 
 footer{
     grid-area: pe; /*posicionamento em coluna e linha do footer*/
-    width: auto;   
+      
 }
 
 
@@ -61,4 +61,14 @@ body{
 header{
     height: 70px; /*coloquei para tirar a escrita que estava anteriormente*/
     width: auto; /*definir o tamnho e o restante deixei automatico*/
+}
+
+footer{
+    background-image: url(https://as1.ftcdn.net/v2/jpg/03/41/22/26/1000_F_341222612_AzstygeCtR6uQQbj5LVkbOK3X47H31Z3.jpg);
+    height: 70px;
+    width: auto;
+
+}
+main, aside{
+    text-align: center;
 }
